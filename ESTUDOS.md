@@ -8,7 +8,7 @@
 
 ### Junho | Julho
 
-Aula inaugural
+[ ] Aula inaugural
 
 Versionamento de código
 
