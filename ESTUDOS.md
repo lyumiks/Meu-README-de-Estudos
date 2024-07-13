@@ -16,7 +16,7 @@
   - [x] Configuração de ambiente de desenvolvimento
 
 - [ ] Páginas Web
-  - [x]HTML
+  - [x] HTML
   - [x] CSS
   - [x] Pré-processadores de CSS
 
