@@ -10,14 +10,32 @@
 
 - [ ] Aula inaugural
 
-Versionamento de código
+- [ ] Versionamento de código
 
-Páginas Web
+  - [x] Conceitos básicos de Git com Github: brunch, commit, merge e pull reequest
+  - [x] Configuração de ambiente de desenvolvimento
+
+- [ ] Páginas Web
+  - [x]HTML
+  - [x] CSS
+  - [x] Pré-processadores de CSS
 
 ### Agosto | Setembro
 
-Padrões de Projeto
+- [ ] Padrões de Projeto
 
-Empacotadores
+- [ ] Empacotadores
 
 ### Setembro | Outubro
+
+- [ ] POO
+
+- [ ] Angular
+
+### Novembro
+
+- [ ] **Projeto final**
+
+### Dezembro
+
+**LINHA DE CHEGADA**
