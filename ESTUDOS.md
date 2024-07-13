@@ -8,9 +8,9 @@
 
 ### Junho | Julho
 
-- [ ] Aula inaugural
+- [x] Aula inaugural
 
-- [ ] Versionamento de código
+- [x] Versionamento de código
 
   - [x] Conceitos básicos de Git com Github: brunch, commit, merge e pull reequest
   - [x] Configuração de ambiente de desenvolvimento
