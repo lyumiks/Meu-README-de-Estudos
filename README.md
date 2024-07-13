@@ -4,4 +4,4 @@ O objetivo deste projeto é de registrar os meus estudos em Front End (conferir 
 
 Abaixo segue um tutorial de _como_ atualizar o conteúdo, conforme o progresso dos estudos:
 
-## Como atualizar o arquivo ESTUDOS.md
+## Como usar/atualizar o arquivo ESTUDOS.md
