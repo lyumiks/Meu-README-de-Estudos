@@ -13,7 +13,7 @@ Atribuir um nome ao repositório
 Concluir a ação
 
 ### No Git
-No Terminal, digiar git initi + enter 
+No Terminal, digiar git init + enter 
 
 ## Como criar uma nova branch
 Importante quando é um projeto envolvendo outras pessoas, para ter uma versão consigo sem afetar a main, acesse o Terminal e digie ``git checkout -b [NOME DA BRANCJ]`` 
