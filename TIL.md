@@ -4,6 +4,7 @@ Quando for necessário salvar os arquivos em outro local.
 Primeiro verificar em qual pasta está atualmente: ``git status``
 Verificado o local, para mover para uma pasta anterior, basta digitar ``cd ..``
 Repita o comando caso a pasta desejada seja anterior a atual.
+Para confirmar a pasta, digitar ``cd`` + ``NOME DA PASTA``
 
 ## Como criar um novo repositório
 Para crirar um novo repositório, é necessário que seja criado tanto no Github quanto atravpes do Git. 
@@ -11,9 +12,13 @@ Para crirar um novo repositório, é necessário que seja criado tanto no Github
 Em "My repositories" clicar em ``New``
 Atribuir um nome ao repositório
 Concluir a ação
+. 
 
 ### No Git
+Se uma pasta foi criada localmente, é preciso que ela seja selecionada
 No Terminal, digiar git init + enter 
+Commitar na nova pasta
+Copiar do Github os comandos em "…or push an existing repository from the command line" e colar no Terminal.
 
 ## Como criar uma nova branch
 Importante quando é um projeto envolvendo outras pessoas, para ter uma versão consigo sem afetar a main, acesse o Terminal e digie ``git checkout -b [NOME DA BRANCJ]`` 
