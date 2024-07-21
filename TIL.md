@@ -7,7 +7,7 @@ Repita o comando caso a pasta desejada seja anterior a atual.
 Para confirmar a pasta, digitar ``cd`` + ``NOME DA PASTA``
 
 ## Como criar um novo repositório
-Para crirar um novo repositório, é necessário que seja criado tanto no Github quanto atravpes do Git. 
+Para crirar um novo repositório, é necessário que seja criado tanto no Github quanto através do Git. 
 ### No Github
 Em "My repositories" clicar em ``New``
 Atribuir um nome ao repositório
