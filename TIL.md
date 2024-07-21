@@ -65,9 +65,9 @@ O ``@media`` se repetiu pois a cada um dos cenários (breakpoints) foi definido 
 É uma forma de "organização" do conteúdo na página web no SCSS. Ela basicamente divide a tela como em uma forma de grade, em que o conteúdo fica dividido entre esses espaços: 
 ![exemplo de grid](https://www.freecodecamp.org/news/content/images/2022/05/CSS-GRID-3.png)
 
-# **2024-07-18
+# **2024-07-18**
 Asterisco (*) é o seletor universal do CSS.
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5aa7f2f4-06fb-41b5-b5d9-52cd1493ccf6/a5ab5968-c8ee-4f14-8f60-fc63588d06de/Untitled.png)
+![exemplo de códgio asterisco](https://prod-files-secure.s3.us-west-2.amazonaws.com/5aa7f2f4-06fb-41b5-b5d9-52cd1493ccf6/a5ab5968-c8ee-4f14-8f60-fc63588d06de/Untitled.png)
 
 O underline na frente do nome do arquivo, não o renderiza. Ex.: "_variables.scss"
 
