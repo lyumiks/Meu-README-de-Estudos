@@ -80,7 +80,9 @@ Utilizar o ``@import`` no SCSS possibilita dividir o código em pastas. Então p
 # **2024-07-21**
 ## Utilizando o Git Pull
 O Git Pull, ao contrário do GIT PUSH, é para pegar o código atualizado do github
+
 OU SEJA : enquanto o Git Push exporta da máquina para o github, o Git Pull importa a main do github para a máquina
+
 ### Como usar
 ``git pull origin main``
 
