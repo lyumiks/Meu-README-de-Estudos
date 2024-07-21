@@ -16,8 +16,11 @@ Concluir a ação
 
 ### No Git
 Se uma pasta foi criada localmente, é preciso que ela seja selecionada
+
 No Terminal, digiar git init + enter 
+
 Commitar na nova pasta
+
 Copiar do Github os comandos em "…or push an existing repository from the command line" e colar no Terminal.
 
 ## Como criar uma nova branch
