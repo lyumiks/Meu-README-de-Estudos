@@ -21,6 +21,8 @@ Commitar na nova pasta
 Copiar do Github os comandos em "…or push an existing repository from the command line" e colar no Terminal.
 
 ## Como criar uma nova branch
+Primeiro git push → “git push -u origin NOME DA BRANCH”
+“-u” : abreviação de set upstream (para qual branch vai)
 Importante quando é um projeto envolvendo outras pessoas, para ter uma versão consigo sem afetar a main, acesse o Terminal e digie ``git checkout -b [NOME DA BRANCJ]`` 
 
 ## Utilizar variáveis em SCSS 
@@ -62,3 +64,21 @@ O ``@media`` se repetiu pois a cada um dos cenários (breakpoints) foi definido 
 ## Display grid
 É uma forma de "organização" do conteúdo na página web no SCSS. Ela basicamente divide a tela como em uma forma de grade, em que o conteúdo fica dividido entre esses espaços: 
 ![exemplo de grid](https://www.freecodecamp.org/news/content/images/2022/05/CSS-GRID-3.png)
+
+# **2024-07-18
+Asterisco (*) é o seletor universal do CSS.
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5aa7f2f4-06fb-41b5-b5d9-52cd1493ccf6/a5ab5968-c8ee-4f14-8f60-fc63588d06de/Untitled.png)
+
+O underline na frente do nome do arquivo, não o renderiza. Ex.: "_variables.scss"
+
+Utilizar o ``@import`` no SCSS possibilita dividir o código em pastas. Então por exemplo, é possível com o import, criar uma pasta somente com variáveis e importar as definições para a pasta main de estilização. 
+
+## Criar uma nova 
+
+# **2024-07-21**
+## Utilizando o Git Pull
+O Git Pull, ao contrário do GIT PUSH, é para pegar o código atualizado do github
+OU SEJA : enquanto o Git Push exporta da máquina para o github, o Git Pull importa a main do github para a máquina
+### Como usar
+``git pull origin main``
+
