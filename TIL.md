@@ -67,11 +67,16 @@ O ``@media`` se repetiu pois a cada um dos cenários (breakpoints) foi definido 
 
 # **2024-07-18**
 Asterisco (*) é o seletor universal do CSS.
-![exemplo de códgio asterisco](https://prod-files-secure.s3.us-west-2.amazonaws.com/5aa7f2f4-06fb-41b5-b5d9-52cd1493ccf6/a5ab5968-c8ee-4f14-8f60-fc63588d06de/Untitled.png)
+``* {
+    box-sizing: border-box;
+    margin;0;
+    padding: 0;
+    }``
 
 O underline na frente do nome do arquivo, não o renderiza. Ex.: "_variables.scss"
 
 Utilizar o ``@import`` no SCSS possibilita dividir o código em pastas. Então por exemplo, é possível com o import, criar uma pasta somente com variáveis e importar as definições para a pasta main de estilização. 
+
 
 ## Criar uma nova 
 
