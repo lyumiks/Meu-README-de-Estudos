@@ -77,6 +77,11 @@ O underline na frente do nome do arquivo, não o renderiza. Ex.: "_variables.scs
 
 Utilizar o ``@import`` no SCSS possibilita dividir o código em pastas. Então por exemplo, é possível com o import, criar uma pasta somente com variáveis e importar as definições para a pasta main de estilização. 
 
+## Utilizando Webpack
+Para visualizar, é preciso iniciar o webpack, para que sejam importadas as configurações. para isso: ``npm  run start`` (no terminal)  
+
+Atenção à linha: ``<i> [webpack-dev-server] Loopback: VER O LOCAL HOST E ACESSAR O LINK``
+
 # **2024-07-21**
 ## Utilizando o Git Pull
 O Git Pull, ao contrário do GIT PUSH, é para pegar o código atualizado do github
