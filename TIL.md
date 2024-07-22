@@ -96,7 +96,10 @@ OU SEJA : enquanto o Git Push exporta da máquina para o github, o Git Pull impo
 
 ## Iniciar o sass 
 Em um novo projeto, utilizando o Sass, é preciso iniciá-lo no Terminal com o comando ``sass --watch styles/main.scss:styles/styles.css``
+
 Para isso, certifique-se que o local da pasta está correto. Deve ser o mesmo do projeto!
+
 No arquivo html, deve estar referenciado no head: ``<link rel="stylesheet" href="styles.css" />``
+
 O comando ``sass --watch`` deverá conter o caminho da pasta input e output, divididas por :! 
 
