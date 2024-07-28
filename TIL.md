@@ -103,3 +103,113 @@ No arquivo html, deve estar referenciado no head: ``<link rel="stylesheet" href=
 
 O comando ``sass --watch`` deverá conter o caminho da pasta input e output, divididas por :! 
 
+# **2024-07-25**
+## Aula JavaScript
+**linguagem interpretada:** interpretar a linguagem, transformá-la a uma linguagem mais próxima de uma linguagem de máquina
+
+**linguagem compilada:** interpretação baixo nível
+js roda em browser, navegadores web, o que muda é o compilador- V8: chrome e node.js (ambientes diferentes que usam V8, o mesmo compilador)
+
+**node.js:** é um compilador javascript, é uma plataforma que permite a execução de javascript via servidor
+
+**V8:** biblioteca criada pela google 
+
+**parsing e compilação:**
+
+**call stack:** pilha de chamados, todo processamento é feito por essa call stack - como o js funciona
+
+**LIFO (Last In, First Out):** é o termo na programação, em que significa último a entrar/primeiro a sair. 
+imagina uma pilha de cadernos pra uma professora corrigir. O último a  colocar o caderno na pilha é o primeiro caderno que vai ser corrigido.
+existem métodos para executar e gerenciar: LIFO é um deles
+
+stack executa uma ação por vez, o js precisa gerenciar isso, pra isso serve a call stack
+
+**Síncrono** é quando você espera pelo sanduíche até que ele esteja pronto. Você fica parado, olhando para a sua mãe fazer o sanduíche, e não faz nada mais até que ela termine e te dê o sanduíche. Só depois disso você vai comer.
+
+**Assíncrono** é quando você pede o sanduíche e vai brincar enquanto sua mãe faz o sanduíche. Você pode brincar, assistir TV ou fazer qualquer outra coisa. Quando o sanduíche estiver pronto, sua mãe chama você e aí sim você vai comer.
+
+JS é single-threaded, mas usa o conceito de event loop, 
+**thread:** tem um fluxo de execução único, só consigo fazer uma coisa por vez 
+
+**non blocking I/O**
+
+**visualização do que seria uma call stack:** http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D
+
+**call-back queue:** assíncronas (requisição com um tempo para ser feita) - ele não é do js! bloqueia call stack 
+libuv - linguagem mãe do js, de baixo nível, quem determina o que foi resolvido ou não, faz um gerenciamento, converte o código em c
+1) vai para o web apis (síncrono) 
+
+2) callback queue
+
+callstack -> via api do browser vai para o aps
+
+js leva para o C++ transformar em um código de baixo nível
+
+**arrays:** listas ordenadas de valores, na programação tudo começa por 0! [1,2,3,4] -> o 1 está na posição 0, 2 na posição 1....
+
+**STRINGS:** 'valor da variável, um texto' 
+
+criar variável
+
+1) usar "var" (palavra reservada)
+   ex: var aluno = "Yumi" -> Yumi é uma string 
+   
+2) usar "let"
+
+ex: let aluno2 = "leila"
+mesma forma de declarar uma variável. o problema do var é de ignorar o escopo. NÃO DEVE SER UTILIZADO
+
+o let deve ser utilizado "let me change", deixe-me mudar.
+
+3) const
+
+ex: const aluno3 = "kato" 
+
+console.log(aluno, aluno3)
+
+o const é constante, então recebe o valor atribuído na primeira linha 
+
+ex.: 
+let name = "Daniel" 
+let lastName = "Gomes" 
+let nomeCompleto = ${name} ${lastName}  -> para deixar as palavras separadas por espaço 
+
+resultado (node dados) -> Daniel Gomes
+
+números ficam representados com cor diferente, mas precisam estar sem nada como aspas (para entender como número e não como texto)
+
+PHP: pesquisar, para entender javascript
+
+# **2024-07-28** 
+## **Boas práticas para commitar** 
+### **Tipo**
+build: Related to build process changes;
+ci: Related to continuous integration setup changes;
+chore: About build process or auxiliary tool changes;
+docs: Limited to documentation changes;
+feat: Introducing new features;
+fix: Addressing bug fixes;
+perf: Enhancing code performance;
+refactor: Code changes without bug fixes or new features;
+revert: Reverting previous changes;
+style: Markup, formatting, or whitespace changes;
+test: Adding missing tests.
+
+### **Conteúdo opcional**
+ele fica entre parênteses, logo após o tipo. Ex.: feat(parser): add the ability to parse arrays
+
+### **Assunto**
+deve ser conciso, evite escrever "mudanças", "alterações". uma boa prática é utilizar o presente e imperativo (e preferencialmente em inglês): "change"
+evite terminar a linha do assunto com um ponto final
+
+### **Corpo|Body**
+É opcional, bem semelhante ao assunto (subject). Manter a forma imperativa e conjugação no presente. O body explica a motivação por trás da mudança e destaca quaisquer contrastes notáveis com o comportamento anterior. 
+
+## **Regras básicas**
+Limite a linha de assunto a no máximo 50 caracteres;
+Comece a linha de assunto com uma letra minúscula e use o presente;
+Utilize o corpo para explicar “o quê” e “porquê” das mudanças, em vez de “como”.
+
+**Exemplos de commit** 
+``fix(filter): change filtration logic``
+``feat(authentication): Add Google auth``
