@@ -213,3 +213,133 @@ Utilize o corpo para explicar “o quê” e “porquê” das mudanças, em vez
 **Exemplos de commit** 
 ``fix(filter): change filtration logic``
 ``feat(authentication): Add Google auth``
+
+# **2024-07-30**
+## Tipos de dados
+### Boolean
+Retorna true or false 
+- thruthy and falsy no JS 
+Falsy: valor falsy é algo que foi avaliado como false
+ex.: 0, false, undefined, null, "" (string vazia), NaN (Not a Number), 0n, -0  
+Truthy: 
+
+Colocar uma ! antes da variável, é negar. Fazer uma negação do valor 
+  ``console.log(!0)`` 
+  Quero que retorne o valor booleano dessa variável, mas me negando ela
+    ``console.log(!!0)`` 
+  Negando a negação -> retorna como verdadeiro (true) 
+
+  ### Undefined e Null
+    ``let contador;``
+  ``node [PASTA]``
+  ``console.log(typeof contador == 'undefined')`` 
+  Criei uma variável e vai me retornar como ``undefined``, que aparece quando uma variável não é definida
+  Os dois "=" verifica somente o valor 
+  Três "=" verifica o valor e o tipo
+  Então: 
+  ``console.log(6 === '6')`` vai retornar no node como FALSE
+  É preferível utilizar o **estritamente** igual, que são os 3 =
+
+  ``let carro = null;`` 
+  ``console.log(carro)`` 
+
+O Null é para quando quer retornar uma informação ao usuário, mas que não tem um valor para a variável para ser definida.  
+É mais semântico do que undefined, pois indica que não tem um valor. No caso do undefined, indica que você simplemente não definiu nada. 
+
+### Object
+O objeto é uma coleção/dicionário de dados definida baseada em chave e valor. 
+  ``const usuario = {
+  [key/propriedade/chave]: value
+  }``
+
+Assim se cria um objeto literal: 
+  ``const usuario = {
+  nome: "Yumi"
+  }``
+Objeto literal é aquele que é escrito na raça 
+
+"Nome" é uma propriedade ou chave, "Yumi" é o valor dessa chave/propriedade
+
+``console.log(usuario)`` (no código) + node [PASTA] = { nome: 'Yumi'} 
+
+``console.log(usuario.nome)`` o ponto serve quando quero listar todas as propriedades desse objeto (no caso retorna com ``string`` - no node)  . listar a propriedade que quer acessar
+
+**Objetos alinhados** 
+``idade: 26
+nome: Yumi``
+
+``console.log(usuario.idade)``
+``console.log(usuario.nome)``
+Retorna: ``26
+Yumi``
+
+### Array
+É um vetor, um agrupador de dados (forma uma lista)
+``const listaDeCompras = []``
+Para criar um array, a sintaxe é colchetes
+``console.log(typeof listaDeCompras)``
+Vai retornar como um object: **Tudo no JS é um objeto**
+``console.log(Array.isArray(listaDeCompras))`` 
+Dentro do parênteses, o "Array" é uma classe, já indicando o tipo, e em seguida ".isArray" é uma função, em que dentro do 2º parênteses é para falar qual variável é
+
+``const listaDeCompras = [
+'banana',
+'maçã',
+'arroz',
+'frango'
+]``
+
+Ele vai retornar do node: [ 'banana', 'maçã', 'arroz', 'frango']
+No JS, um array pode ser uma lisa de qualquer coisa, qualquer tipod e dado. Pode colocar vários dados dentro de uma lista, incluindo textos e números. Existe essa flexibilidade de colocar qualquer tipo de valor (ex. {valor: true}, 10) 
+
+``console.log(listaDeCompras.length)`` 
+O length é uma variável, ele em específico serve para contar quantos itens tenho na lista array (Capturo o tamanho do array)
+
+``console.log(listaDeCompras[0])`` 
+Isso serve para identificar qual a posição 
+
+Para definir qual posição é o último item do array: ``console.log(listadeCompras[listaDeCompras.length - 1])`` 
+
+### Function
+É criada para executar uma tarefa
+**Function Expression (named function/função nomeada)**
+``function lavarLouça(){
+  const prato = ' ' 
+}
+``
+O escopo de uma função existe só dentro da função! (Por isso que se rodar o que estiver acima, vai dar um erro.
+
+Esqueleto da function: escrevo function, nomeio a função e parênteses para definir os parâmetros/argumentos, as chaves são para colocar o escopo
+
+``function lavarLouça(prato){
+  console.log(prato) 
+}
+``
+``console.log(lavarLouca())`` -> undefined 
+função pode ser anônima se escrita assim: ``function ()`` 
+
+**Anonymous Function** 
+``verificaSeEhMaiorDeIdade: function () {
+return usuario.idade >= 18
+}
+log: () = >
+
+console.log(usuario.log())
+
+**Arrow function**
+
+Próxima: loops, condicionais
+
+**INDICAÇÕES** 
+- "Entendendo algoritmos: Um Guia Ilustrado Para Programadores e Outros Curiosos"
+
+
+
+
+  
+
+  
+
+  
+  
+
