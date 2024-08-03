@@ -327,8 +327,111 @@ log: () = >
 console.log(usuario.log())
 
 **Arrow function**
+  const fazerAndar = () => {
+  }
 
-Próxima: loops, condicionais
+# **2024-08-01**
+Existem formas diferentes de escrever uma função: anônima (sem ter nome, precisa ser atribuída a uma variável), function expression/named function (função nomeada), arrow function (função flecha) 
+
+Escopo global 
+
+``this`` quando está no acesso global tem um escopo diferente do escopo de função. 
+
+O ``this`` na arrow function é diferente, ele acessa o escopo global 
+
+## Operadores de atribuição
+Resto da divisão: % (ex. 11 % 11)
+  ``remainder = 11 %11;
+  console.log(remainder); //0``
+
+
+Exponencial: ** (3**5 = 3^5)
+
+## Incremento
+  ``let increment = 0
+  console.log(increment++) //0
+  console.log(++increment) //1 
+  console.log(increment) //1``
+
+O ++ na frente, chama a variável na hora e a incrementa, já depois ele chama a variável e depois a incrementa
+
+## Expressões boleanas
+AND (&&) - verdadeiro se todos forem verdadeiros 
+  console.log(pao && queijo); //saída false
+
+OR || - verdadeiro se pelo menos um for verdadeiro
+  console.log(pao || queijo); //saída true
+
+NOT ! - negação
+  console.log(!pao); //saída false 
+
+## Condições
+utilizar o if... else para quando há mais de uma condição possível
+uma forma diferente, é usar um padrão de projeto = early return (para evitar que fique muito difícil de ler o código quando há muitos else) 
+o return serve para dizer para o JS "parar o código" 
+  funtion checarTemperatura(temperatura) {
+  if (temperatura >= 37.5) {
+  console.log("febre alta");
+  return "febre alta" 
+default -> nenhuma atribuição
+
+function calculadora(numero1, operador, numero2) {
+let resultado;
+console.log('Esse é o meu operador', operador) 
+
+switch (operador) {
+case "+":
+resultado = numero1 + numero2;
+break;
+case "-"
+resultado = numero1 - numero2;
+break;
+}
+console.log("+" == "+") 
+console.log(calculadora) 4, "+", 8 //12 
+
+o break para a operação
+
+## Looping
+  for (let inicializador = 0; inicializador < 5; inicializador++) {
+  console.log(inicializador) // 0 1 2 3 4
+
+inicializador = 0 (começa em 0)
+inicializador < 5 (número de vezes, um limitador) 
+inicializador++ (deixa crescente) 
+
+Qual é o uso do looping? 
+A gente precisar varrer algum tipo de dado (arrays, p. ex.) para executar alguma ação 
+
+Então: 
+  for (let inicializador = 0; inicializador =< 30; inicializador++) {
+  console.log('timer foi concluído) // timer foi concluído 
+
+let array = [" ", " ", " "]
+
+  let nomes = ['João', 'Paulo', 'Pedro']
+  for (let nome of nomes){
+  console.log(nome)
+  } //João Paulo Pedro 
+
+  let nomes = ['João', 'Paulo', 'Pedro']
+  for (let nome in nomes){
+  console.log(nome)
+  } //0 1 2 - retorna o index 
+
+O for é um looping com determinada condição, pode fazer várias voltas. 
+
+while (enquanto) 
+  let i = 0
+  while (i<= 10) {
+  i++
+  console.log('Ainda estou na sala')
+  if (i == 10) {'Finalmente vou dormir')
+  }
+  i++
+  }
+
+usado quando a gente quer monitorar algo que vai mudar diversas vezes, e quando chegar no que queremos a gente para a execução dele 
 
 **INDICAÇÕES** 
 - "Entendendo algoritmos: Um Guia Ilustrado Para Programadores e Outros Curiosos"
