@@ -433,6 +433,18 @@ while (enquanto)
 
 usado quando a gente quer monitorar algo que vai mudar diversas vezes, e quando chegar no que queremos a gente para a execução dele 
 
+# **2024-08-06**
+# DOM - JavaScript
+Document Object M
+- Interface de programação para documentos HTML e XML
+- Representa a estrutura da página como uma árvore de nós (nós de elementos, atributos, texto, etc)
+- É importante porque permite a criação de páginas web dinâmicas
+- Pode modificar a estrutura do documento, o conteúdo e dos estilos em resposta a ações do usuário ou outras condições (não precisa esperar API, por exemplo)
+
+Utiliza o elemento global (document.) para buscar pelos elementos especificados 
+
+
+
 **INDICAÇÕES** 
 - "Entendendo algoritmos: Um Guia Ilustrado Para Programadores e Outros Curiosos"
 
