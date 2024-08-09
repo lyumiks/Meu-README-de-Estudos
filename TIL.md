@@ -443,6 +443,14 @@ Document Object M
 
 Utiliza o elemento global (document.) para buscar pelos elementos especificados 
 
+# **2024-08-08**
+**.map:** não funciona no navegador, somente no node. ele vai retornar um outro array
+
+
+**.foreach:** funciona no navegador, ele somente passa pelos elementos 
+
+
+**Código de mercado:** Abrir uma seção de comentário e colocar uma descrição. Por exemplo, acima de uma função no código, colocar um comentário descrevendo o que essa função faz, o que é esperado dela. É uma documentação de código, bem vista (uma boa prática, talvez?), colocar a descrição em inglês é um diferencial (recomendado usar o chatGPT caso precisar traduzir do PT para ENG). 
 
 
 **INDICAÇÕES** 
