@@ -452,6 +452,17 @@ Utiliza o elemento global (document.) para buscar pelos elementos especificados
 
 **Código de mercado:** Abrir uma seção de comentário e colocar uma descrição. Por exemplo, acima de uma função no código, colocar um comentário descrevendo o que essa função faz, o que é esperado dela. É uma documentação de código, bem vista (uma boa prática, talvez?), colocar a descrição em inglês é um diferencial (recomendado usar o chatGPT caso precisar traduzir do PT para ENG). 
 
+# **2024-08-11**
+## JavaScript
+Sobre objetos no código 
+
+conseguimos criar propriedades (criar chaves) e definir objetos no código para utilizar como variáveis ao longo dele. sua semântica é: { nome da chave: valor } 
+
+por exemplo: uma das minhas propriedades é altura, seu nome seria altura mesmo e o valor é quanto meço: { altura: 158 } 
+
+para chamar um objeto ao longo do código, preciso me referenciar a nome e a minha propriedade: [nome que coloquei no código].propriedade 
+
+
 
 **INDICAÇÕES** 
 - "Entendendo algoritmos: Um Guia Ilustrado Para Programadores e Outros Curiosos"
